@@ -16,7 +16,6 @@ section{
   display:flex;
   align-items: center;
   background-color: #e6002d;
-  width:fit-content;
   margin:auto;
   margin-top: 35px;
 }
@@ -28,7 +27,7 @@ section{
 .topnav a{
   color:white;
   text-decoration: none;
-  padding: 25px 30px;
+  padding: 25px 3%;
   border-left: 1px solid white;
   font-weight: bold; 
 }
