@@ -12,6 +12,7 @@ section{
 }
 
 .topnav{
+  max-width: 960px;
   display:flex;
   align-items: center;
   background-color: #e6002d;
