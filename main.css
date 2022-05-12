@@ -11,6 +11,8 @@ section{
   margin-right: auto; 
 }
 
+
+/*TOPNAV*/
 .topnav{
   max-width: 960px;
   display:flex;
@@ -36,6 +38,25 @@ section{
   max-width: 200px;
   padding: 10px
 }
+
+
+@media only screen and (max-width: 1000px) {
+  .topnav{
+    background-color: #e6002d;
+    width: fit-content;
+  }
+
+  .topnav a{
+    width: fit-content;
+    color:white;
+    text-decoration: none;
+    padding: 25px 30px;
+    border-left: 1px solid white;
+    font-weight: bold;
+  }
+}
+
+
 
 
 
