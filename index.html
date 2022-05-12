@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "stylesheet" href = "main.css">
+    <title>Document</title>
+</head>
+<body>
+  <section>
+      <header>
+          <div class="topnav">
+              <img src = "src/logo.jpg" alt="logo">
+              <a href = "">KSCA</a>
+              <a href = "underconstruction.html">COMPETITOINS</a>
+              <a href = "underconstruction.html">TEAMS</a>
+              <a href = "underconstruction.html">NOTICE</a>
+              <a type="submit"><i class="fa fa-search"></i></a>
+              <a href = "underconstruction.html">MEMBER</a>
+          </div>
+      </header>
+        
+
+      <!--slideshow-->
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="src/banner_img_1.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="src/banner_img_2.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="src/banner_img_3.jpg" style="width:100%">
+        </div>
+        <div class = "dot-bar" style="text-align: center;">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+      </div>
+      
+      <!--TIMETABLE-->
+      <div class = "schedule">
+        <img src = "src/schedule.jpg">
+      </div>
+
+      <!--ADS-->
+      <div class = "ad-container">
+        <img src = "src/ad.jpg">
+        <img src = "src/ad.jpg">
+        <img src = "src/ad.jpg">
+        <img src = "src/ad.jpg">
+      </div>
+
+      </br>
+      <hr class = "hr-line">
+      
+      <!--STATS-->
+      <div class = "stats-container">
+        <div class = "stats-child">
+          <div class = "title">
+            <h1><img src = "src/small_logo.jpg">Club Stats</h1>
+          </div>
+          <div class = "club-stats">
+            <div class = "stats-button">
+              <button id = "open_age_club_stat" onclick = "clubStat(this.id)">OPEN AGE</button>
+              <button id = "over_age_40_club_stat" onclick = "clubStat(this.id)">OVER AGE 40</button>
+              <button id = "over_age_55_club_stat" onclick = "clubStat(this.id)">OVER AGE 55</button>
+            </div>
+            <img src = "src/open_age_club_stat.jpg" id = "club_stat">
+          </div>
+        </div>
+
+        <div class = "stats-child">
+          <div class = "title">
+            <h1><img src = "src/small_logo.jpg">Player Stats</h1>
+          </div>
+          <div class = "player-stats">
+            <div class = "stats-button">
+              <button id = "open_age_player_stat" onclick="playerStat(this.id)">OPEN AGE</button>
+              <button id = "over_age_40_player_stat" onclick="playerStat(this.id)">OVER AGE 40</button>
+              <button id = "over_age_55_player_stat" onclick="playerStat(this.id)">OVER AGE 55</button>
+            </div>
+            <img src = "src/open_age_player_stat.jpg" id = "player_stat">
+          </div>
+        </div>
+      </div>
+
+    </br>
+    <hr class = "hr-line2">
+
+    <img src = "src/bottom_logos.jpg" class = "bot-logo">
+
+    <!--BOTNAV-->
+    <div class = "botnav-container">
+      <div class = "botnav-image">
+        <img src = "src/botnav.jpg">
+      </div>
+      <div class = "botnav-buttons">
+        <a href = ""><img src = "src/facebook.jpg"></a>
+        <a href = ""><img src = "src/twitter.jpg"></a>
+        <a href = ""><img src = "src/instagram.jpg"></a>
+        <a href = ""><img src = "src/youtube.jpg"></a>
+      </div>
+    </div>
+            
+    </section>
+       
+  <script src="main.js"></script>
+</body>
+</html>

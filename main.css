@@ -1,0 +1,214 @@
+body{
+  margin: 0;
+}
+
+section{
+  position: absolute;
+  max-width: 955px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+.topnav{
+  display:flex;
+  align-items: center;
+  background-color: #e6002d;
+  width:fit-content;
+  margin:auto;
+  margin-top: 35px;
+}
+
+.topnav a:nth-of-type(5){
+  padding: 25px 40px;
+}
+
+.topnav a{
+  color:white;
+  text-decoration: none;
+  padding: 25px 30px;
+  border-left: 1px solid white;
+  font-weight: bold; 
+}
+
+.topnav img{
+  width: 200px;
+  padding: 10px
+}
+
+
+
+
+/*SLIDE SHOW*/
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 960px;
+    position: relative;
+    margin: auto;
+    padding-top: 10px;
+}
+
+/* The dots/bullets/indicators */
+.dot-bar{
+  position: absolute;
+  bottom: 3px;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+hr{
+  border: 1px solid #e6002d;
+  width: 960px;
+}
+
+
+
+
+/*SCHEDULE*/
+.schedule img{
+  width: 960px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+
+
+/*AD*/
+.ad-container img{
+  width: 24.5%;
+  padding: 30px 3px;
+  padding-bottom: 20px;
+}
+
+.ad-container{
+  display: flex;
+  min-width: 955px;
+}
+
+
+
+/*STATISTICS*/
+.stats-container{
+  display: inline-flex;
+  align-items: center;
+  min-width: 955px;
+  padding-bottom: 40px;
+}
+
+.stats-child{
+  padding: 10px 15px;
+}
+
+.title{
+  color:#e6002d;
+  font-size: large;
+  align-items: center;
+  position: relative;
+  width: fit-content;
+}
+
+.club-stats, .player-stats{
+  border: black 2px solid;
+  width: fit-content;
+}
+
+.stats-button button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  color: grey;
+  margin: 0px 6px;
+}
+
+.stats-button button:nth-of-type(1){
+  color:black;
+}
+
+.stats-button button:hover{
+  color: darkgray;
+}
+
+.stats-button{
+  width: fit-content;
+  margin:auto;
+}
+
+.club-stats img, .player-stats img{
+  width: 100%;
+}
+
+
+
+
+.bot-logo{
+  width: 960px;
+}
+
+
+/*BOTNAV*/
+.botnav-container img{
+  position: relative;
+  max-width: 960px;
+  padding-bottom: 30px;
+}
+
+.botnav-buttons{
+  position: absolute;
+  bottom: 40px;
+  right: -100px;
+}
+
+.botnav-buttons img{
+  width: 13%;
+  border-radius: 50%;
+  padding: 0px 0px;
+  margin: 0px -3px;
+}
+
+
+/*UNDER CONSTRUCTION*/
+
+.under-construction{
+  max-width: 960px;
+}
