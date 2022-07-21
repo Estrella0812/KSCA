@@ -30,6 +30,16 @@ function showSlides() {
 
 
 
+window.onload = function  onLoad(){
+    document.getElementById("club_stat").setAttribute("src", "src/"  + "over_age_40_club_stat.jpg");
+    document.getElementById("player_stat").setAttribute("src", "src/" + "over_age_40_player_stat.jpg");
+    
+    document.getElementById("over_age_40_club_stat").style.color = "black";
+    document.getElementById("over_age_40_player_stat").style.color = "black";
+    document.getElementById("open_age_club_stat").style.color = "grey";
+    document.getElementById("open_age_player_stat").style.color = "grey";
+}
+
 
 function clubStat(n){
     setClubButtonGrey();
