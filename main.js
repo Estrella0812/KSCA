@@ -23,7 +23,7 @@ function showSlides() {
     
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
-    countdown = setTimeout(showSlides, 2500);
+    countdown = setTimeout(showSlides, 5000);
 }
 
 
